@@ -85,5 +85,4 @@ body {
   @media (max-width: 767px) {
     body {
       display: flex;
-      align-items: initial;
-      background-position-x: -800px; } }
+      align-items: initial; } }
