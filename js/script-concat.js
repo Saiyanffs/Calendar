@@ -66,6 +66,7 @@ arrows.forEach((elem) => {
         firstDate = month_names[month] + " " + 1 + " " + year;
         dayInWeek = new Date(firstDate).toDateString().substring(0, 3);
         dayIndex = dayNames.indexOf(dayInWeek);
+        daysNumber = new Date(year, month + 1, 0).getDate();
 
         while( table.hasChildNodes()) {
             table.removeChild(table.lastChild);
